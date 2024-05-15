@@ -16,6 +16,15 @@ class list:
         self.head=new_node
 
     def display(self):
+        current = self.head
+        while current :
+            print (f"{current.zarib}x^{current.data}",end=" ")
+            if current.next:
+                print("+" , end="")
+            current.next
+        print()
+
+        
         
 
     
