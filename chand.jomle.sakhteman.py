@@ -77,17 +77,18 @@ class polynimialMenu:
             print("5.exit")
 
 
-        choice = int(input("enter your celection:"))
-        if choice == 1:
-            self.insert()
-        elif choice == 2:
-            self.sum()
-        elif choice == 3:
-            self.mult()
-        elif choice == 4:
-            self.print()
-        elif choice == 5:
-            break
-        else:
-            print("invalid choice! please try again.")
+            choice = int(input("enter your celection:"))
+            if choice == 1:
+                self.insert()
+            elif choice == 2:
+                self.sum()
+            elif choice == 3:
+                self.mult()
+            elif choice == 4:
+                self.print()
+            elif choice == 5:
+                break
+            else:
+                print("invalid choice! please try again.")
+        
 #main:
