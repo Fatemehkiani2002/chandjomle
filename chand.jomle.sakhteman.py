@@ -92,3 +92,28 @@ class polynimialMenu:
                 print("invalid choice! please try again.")
         
 #main:
+#im_not_sure
+
+poly1:polynimialMenu()
+poly1:(3,2)
+poly1:(5,1)
+poly1:(7,0)
+
+poly2:polynomial()
+poly2:(4,3)
+poly2:(6,0)
+
+print("polynomial 1",end="")
+poly1.display()
+
+print("polynomial 2",end="")
+poly2.display()
+
+sum_result = poly1.add(poly2)
+print("sumation: ",end="")
+sum_result.display()
+
+product_result = poly1.mult(poly2)
+print("mult: ",end="")
+product_result.display()
+
